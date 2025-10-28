@@ -1,0 +1,35 @@
+[
+{
+  "region_id": "01",
+  "region_name": "Bas-Saint-Laurent",
+  "address": "288, rue Pierre Saindon, bureau 115, Rimouski (Québec) G5L 9A8",
+  "website": "www.cisss-bsl.gouv.qc.ca",
+  "phone": "418 724-5231",
+  "fax_mado": "418 724-8183",
+  "email_mado": null,
+  "director": "Dr Sylvain Leduc",
+  "notes": null
+},
+{
+  "region_id": "02",
+  "region_name": "Saguenay–Lac-Saint-Jean",
+  "address": "599, rue Hôtel-Dieu, Chicoutimi (Québec) G7H 0N8",
+  "website": "www.santesaglac.gouv.qc.ca",
+  "phone": "418 541-1055",
+  "fax_mado": "418 545-0835",
+  "email_mado": null,
+  "director": "Dr Donald Aubin",
+  "notes": null
+},
+{
+  "region_id": "03",
+  "region_name": "Capitale-Nationale",
+  "address": "2400, avenue d’Estimauville, Québec (Québec) G1E 7G9",
+  "website": "www.ciusss-capitalenationale.gouv.qc.ca",
+  "phone": "418 666-7000",
+  "fax_mado": "418 661-7153 (infectieuses); 418 666-2769 (chimique)",
+  "email_mado": null,
+  "director": "Dr Philippe Robert (par intérim)",
+  "notes": null
+}
+]

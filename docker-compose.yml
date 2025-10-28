@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - minio
+      - whisper-worker
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+  whisper-worker:
+    build: ./backend/whisper_worker
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    depends_on:
+      - backend
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=cliniq
+      - POSTGRES_USER=cliniq
+      - POSTGRES_PASSWORD=cliniq
+  minio:
+    image: minio/minio
+    command: server /data
+    environment:
+      - MINIO_ROOT_USER=minio
+      - MINIO_ROOT_PASSWORD=minio123
+    ports:
+      - "9000:9000"

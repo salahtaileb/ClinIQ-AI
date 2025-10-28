@@ -1,0 +1,9 @@
+pdf_field_name,canonical_key,example_value,notes
+PatientName,nom_prenoms_patient,Jean Dupont,Full name as appears on chart
+DOB,date_de_naissance,1980-01-01,YYYY-MM-DD
+Address,adresse,1 Rue Exemple,Street, city, province
+Phone,telephone,418-555-1212,Preferred contact number
+PHN,numero_assurance_maladie,1234567890,Provincial health number
+DiseaseName,nom_de_la_MADO,Syphilis,Reported mandatory disease
+Clinician,nom_clinicien_declarant_et_coordonnees,Dr Demo,Name and contact of reporting clinician
+DeclarationDate,date_declaration,2025-10-28,ISO timestamp
